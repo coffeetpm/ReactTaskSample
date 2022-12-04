@@ -27,11 +27,7 @@ export default class TaskForm extends Component {
     }
 
     AddChange = (event) => {
-        if(event.target.value === 'Refresh')
-        {
-                //updateState({});
-        }// Add item
-        else if(event.target.value === '+')
+        if(event.target.value === '+')
         {
             const title = document.getElementById("tbTitle").value;
             const desc = document.getElementById("tbDesc").value;

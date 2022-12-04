@@ -27,7 +27,6 @@ function Main() {
             <div className="Main-Title">Task Management System</div>
             <br />
             <TaskForm key="Taskform" data={TaskDataset} />
-            <input type="button" className="Main-Refresh" value="Refresh" />
         </header>
         </div>
     );
