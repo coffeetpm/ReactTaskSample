@@ -1,5 +1,5 @@
 async function setData(url = '', json = []) {
-  console.log(JSON.stringify(json));
+  //console.log(JSON.stringify(json));
     fetch(url,
     {
     	method: "POST",

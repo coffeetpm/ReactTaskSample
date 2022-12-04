@@ -1,6 +1,6 @@
 async function Email(url = '', targetemail = '') {
   
-  var EmailBody=[
+  let EmailBody=[
       "cs@methodworx.com",
       targetemail,
       "New task to you",
