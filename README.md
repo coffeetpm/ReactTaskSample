@@ -15,15 +15,7 @@ It should be possible to:
 
 ## FrontEnd
 
-**Structure Level [Port 3000]**
-> -----Banner
-> -----Main
-> ---------TaskTable
-> ------------------TaskFrom
-> --------------------------SetData
-> --------------------------DelData
-> --------------------------Email
-> --------------------------TaskData (For Local Test without backend api)
+**Task listing and management [Port 3000]**
 
 Function of Buttons:
 - Checkbox : Complete the task or not
